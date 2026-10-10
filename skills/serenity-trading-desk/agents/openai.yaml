@@ -1,0 +1,15 @@
+interface:
+  display_name: Serenity 交易员
+  short_description: 追踪公开观点变化，检验瓶颈与每股收益，结合相对强弱、期权和风控制定交易计划
+  default_prompt: Use $serenity-trading-desk to compare recent public thesis changes
+    and build a sourced trading plan with catalysts, per-share economics, relative
+    strength, and risk limits.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
