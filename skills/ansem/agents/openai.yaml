@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ansem"
+  short_description: "还原 Ansem 喊单、配图与 K 线，量化加密及美股交易逻辑"
+  default_prompt: "使用 $ansem，将 Ansem 的原帖与配图对齐历史 K 线，核查技术逻辑、失效条件和可复用交易规则。"

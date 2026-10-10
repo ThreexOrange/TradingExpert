@@ -1,8 +1,15 @@
 # TradingExpert
 
-基于 Serenity（@aleabitoreddit）公开研究方法的交易员 Skill，包含独立添加的技术分析与执行规则。
+独立交易员 Skills：Serenity（@aleabitoreddit）与 Ansem（@blknoiz06），分别保留来源、方法归属和独立执行规则。
 
-## Skill
+## Skills
+
+| Skill | 研究重点 | 入口 |
+| --- | --- | --- |
+| Serenity | 供应链瓶颈、催化、每股经济与交易执行 | [serenity-trading-desk](skills/serenity-trading-desk/SKILL.md) |
+| Ansem | 喊单/配图与历史 K 线对齐、区间突破、假跌破、相对强弱与轮动 | [Ansem](skills/ansem/SKILL.md) |
+
+### Serenity
 
 完整目录：[skills/serenity-trading-desk](skills/serenity-trading-desk)。入口：[SKILL.md](skills/serenity-trading-desk/SKILL.md)。
 
@@ -33,3 +40,18 @@
 
 合入上传更新包的发言解码、平台身份线索、技术路线与日期修正、发帖冲击及主题共振分析。信念分类保留未知，不从建仓或股数直接推断重仓；涨幅提示不作为机械买卖阈值，风险预算不与名义敞口混用。新增“旧模型 → 新证据 → 新模型 → 当前价格”评估流程，平台认证按日期更新，第三方档案的抽检声明保留来源限制。
 
+
+## Ansem（2026-10-11）
+
+完整目录：[skills/ansem](skills/ansem)，界面显示名 **Ansem**，调用名 `$ansem`。
+
+- 对齐原帖、配图、发帖时间与当时已完成的 K 线；分开观点、自述持仓与真实成交。
+- 量化 ATR 标准化突破/刺穿、收回速度、实体影线、趋势效率、相对强弱与 Beta 残差；参数归属明确。
+- 保存历史条件案例与来源缺口，分别检验加密和美股；包含反例、费用、发帖延迟和样本外要求。
+- `scripts/analyze_chart.py` 从显式 open/close 时间的 OHLCV CSV 输出研究特征与带决策时点/事前水平的 SVG，排除未完成 bar 和未来水平。
+
+将整个 `skills/ansem` 目录导入工具，保留相对路径。示例：
+
+> 使用 $ansem，将给定原帖及原图对齐历史 K 线，先还原当时能知道的信息，再量化突破、假跌破及相对强弱，给出候选规则与反例。
+
+初版来源有限，部分原帖/配图未读取，未取得连续同源 OHLCV；尚未完成历史回测或证明预测优势。数学模型与风控为独立扩展，不代表本人固定参数。两个 Skills 的方法不能混为一人观点，GitHub 副本与 ChatGPT 后续更新需分别同步。
