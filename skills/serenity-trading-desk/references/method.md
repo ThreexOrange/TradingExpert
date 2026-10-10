@@ -3,16 +3,17 @@
 ## 一手材料支持
 
 - [Sivers 长文](https://aleabitoreddit.substack.com/p/sivers-semi-sive-the-cpo-laser-supplier)：从 CPO 需求逆推激光供应链；区分公开披露、高置信推断与可能客户；讨论资格认证、产能、替代供应商和 2027–28 放量。原文也承认客户可能不确认或不量产。
-- [SIVE/Jabil 1.6T](https://x.com/aleabitoreddit/status/2034524869086552292)：把合作公告看作论点验证；最终收入另查披露。
-- [IREN ATM](https://x.com/aleabitoreddit/status/2031810360882446636)：潜在股票供给会限制短中期弹性；发帖时金额不能沿用为当前余额。
-- [反逐条追新瓶颈的 FOMO 帖](https://x.com/aleabitoreddit/status/2047426124586893566)：不要每次新概念就改主线。
-- [并行架构观点](https://x.com/aleabitoreddit/status/2072731699990143058)：某一技术路径占优不保证只有一个赢家。
+- [SIVE/Jabil 1.6T，2026-03-19 UTC](https://x.com/aleabitoreddit/status/2034524869086552292)：把合作公告看作论点验证；最终收入另查披露。
+- [IREN ATM，2026-03-11 UTC](https://x.com/aleabitoreddit/status/2031810360882446636)：潜在股票供给会限制短中期弹性，原文建议等现有 ATM 抛压消化后再考虑；发帖时金额不能沿用为当前余额。
+- [反逐条追新瓶颈的 FOMO 帖，2026-04-23 UTC](https://x.com/aleabitoreddit/status/2047426124586893566)：不要每次新概念就改主线。
+- [并行技术路线，2026-08-21 UTC](https://x.com/aleabitoreddit/status/2090783871776551052)：原话为 EML、CW、microLED 是“并行路线”，2027–28 商业重心在硅光 + CW。某一路径占优不等于其他路线归零，也不保证只有一个赢家。
+- [CW 主导判断，2026-07-02 UTC](https://x.com/aleabitoreddit/status/2072731699990143058)：同一主题的另一面——本人认为 CW 激光将成为主导路线，VCSEL 主要用于短距、microLED 商业化更远。两帖合读：主线押 CW，但不排除并行路线。
 - [Reddit WSB 的 AXTI 论点与回复](https://www.reddit.com/r/wallstreetbets/comments/1pyghud/the_entire_ai_buildout_google_nvda_msft_is/)：作者明确这是一项约六个月的瓶颈论点，而非日内交易；在原帖写出出口限制可能使投资归零，也在回复中讨论上游衬底、替代供应商及增发后的价格反应。其点位、市场份额、目标价和当时仓位均未经独立确认，不能沿用。
 - 关于“TA 像占星术、适合心理和入场而非终局预测”的[媒体转述](https://www.binance.com/zh-CN/square/post/334071948501009)可作检索线索；原帖未完整核验，引用时标注为转述。
 
 ## 独立添加的交易员层
 
-日/周和 4H/1H/15m/30m 结构、ATR/VWAP 的条件用法、仓位公式、相对强弱/KC 筛选、期权到期与提前平仓分析、事件前后两套退出、空头和观望情景均为本 Skill 的一般执行设计。每股经济的计算桥梁与跨资产证据要求也属独立扩展。不要说 Serenity 使用 EMA、KC、RSI、具体杠杆或固定止损倍数。高收益截图、匿名背景、实际账户杠杆和未披露客户关系未经审计，不直接采信。
+日/周和 4H/1H/15m/30m 结构、ATR/VWAP 的条件用法、仓位公式、相对强弱/KC 筛选、期权到期与提前平仓分析、事件前后两套退出、空头和观望情景、发帖冲击评估、主题敞口与压力损失均为本 Skill 的一般执行设计。经验阈值不是已验证参数，不替用户设风险预算。[发言解码](signals.md) 的措辞对照来自本人帖子，S/A/B/C/U 是本 Skill 的阅读分类，不代表胜率或应分配仓位。每股经济、新旧模型对照与跨资产证据要求也属独立扩展。不要说 Serenity 使用 EMA、KC、RSI、具体杠杆或固定止损倍数。高收益截图、匿名背景、实际账户杠杆和未披露客户关系未经审计，不直接采信。
 
 ## 近期样本带来的方法细化
 
