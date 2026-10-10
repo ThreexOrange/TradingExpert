@@ -1,4 +1,13 @@
-interface:
-  display_name: "Ansem"
-  short_description: "还原 Ansem 喊单、配图与 K 线，量化加密及美股交易逻辑"
-  default_prompt: "使用 $ansem，将 Ansem 的原帖与配图对齐历史 K 线，核查技术逻辑、失效条件和可复用交易规则。"
+"interface":
+  "display_name": "Ansem"
+  "short_description": "还原 Ansem 交易逻辑，建立可手动回测、复盘与人工执行的系统"
+  "default_prompt": "使用 $ansem，按手动系统规则回放图表，记录选标的、入场、止损、退出与净R，区分本人方法和测试参数。"
+  "icon_small": "assets/icon.svg"
+  "icon_large": "assets/icon.svg"
+"policy":
+  "products":
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  "allow_implicit_invocation": true
