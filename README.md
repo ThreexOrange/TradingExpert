@@ -7,7 +7,7 @@
 | Skill | 研究重点 | 入口 |
 | --- | --- | --- |
 | Serenity | 供应链瓶颈、催化、每股经济与交易执行 | [serenity-trading-desk](skills/serenity-trading-desk/SKILL.md) |
-| Ansem | 喊单/配图与历史 K 线对齐、区间突破、假跌破、相对强弱与轮动 | [Ansem](skills/ansem/SKILL.md) |
+| Ansem 研究 | 核查原帖/配图、对齐历史 K 线、案例台账与统计验证 | [ansem](skills/ansem/SKILL.md) |
 | Ansem TA 法则 | 纯技术交易法则：阶段、比值选强、关键位、S1–S4 形态、失效止损与分级止盈 | [ansem-ta-system](skills/ansem-ta-system/SKILL.md) |
 
 ### Serenity
@@ -44,12 +44,13 @@
 
 ## Ansem（2026-10-11）
 
-完整目录：[skills/ansem](skills/ansem)，界面显示名 **Ansem**，调用名 `$ansem`。
+完整目录：[skills/ansem](skills/ansem)，界面显示名 **Ansem 研究**，调用名 `$ansem`。交易规则和交易卡在 [ansem-ta-system](skills/ansem-ta-system/SKILL.md)。
 
 - 对齐原帖、配图、发帖时间与当时已完成的 K 线；分开观点、自述持仓与真实成交。
-- 量化 ATR 标准化突破/刺穿、收回速度、实体影线、趋势效率、相对强弱与 Beta 残差；参数归属明确。
-- 保存历史条件案例与来源缺口，分别检验加密和美股；包含反例、费用、发帖延迟和样本外要求。
-- `scripts/analyze_chart.py` 从显式 open/close 时间的 OHLCV CSV 输出研究特征与带决策时点/事前水平的 SVG，排除未完成 bar 和未来水平。
+- 研究方法合并在 `references/research.md`：时间对齐、识图、ATR 标准化突破/刺穿、收复状态机、相对强弱与 Beta、执行成本和统计验证。
+- 案例台账 `cases.jsonl` 含 2026-06 BTC 决策链；`sources.md` 合并了 ansem-ta-system 的技术面原话。
+- `references/quant-variant-A.md` 是 S1 的 4H 量化对照组（原手动系统 v0.1），不是默认交易规则。
+- `scripts/analyze_chart.py` 从显式 open/close 时间的 OHLCV CSV 输出研究特征与带决策时点/事前水平的 SVG。
 
 将整个 `skills/ansem` 目录导入工具，保留相对路径。示例：
 
