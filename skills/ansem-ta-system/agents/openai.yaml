@@ -1,0 +1,15 @@
+interface:
+  display_name: Ansem TA 法则
+  short_description: Ansem 公开发言提炼的纯技术交易法则：阶段、选强、关键位、四形态、止损止盈
+  default_prompt: Use $ansem-ta-system to classify the market regime, map weekly and
+    daily levels, pick an S1-S4 setup, and write a trade card with trigger, invalidation,
+    targets and size.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

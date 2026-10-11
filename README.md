@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | Serenity | 供应链瓶颈、催化、每股经济与交易执行 | [serenity-trading-desk](skills/serenity-trading-desk/SKILL.md) |
 | Ansem | 喊单/配图与历史 K 线对齐、区间突破、假跌破、相对强弱与轮动 | [Ansem](skills/ansem/SKILL.md) |
+| Ansem TA 法则 | 纯技术交易法则：阶段、比值选强、关键位、S1–S4 形态、失效止损与分级止盈 | [ansem-ta-system](skills/ansem-ta-system/SKILL.md) |
 
 ### Serenity
 
