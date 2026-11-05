@@ -2,6 +2,7 @@
   "schema_version": "1.0",
   "instructions": "每案例一条；null=未知。derived 时间不是已核时间。",
   "case_id": null,
+  "cluster_id": null,
   "author_handle": "blknoiz06",
   "identity_verified": false,
   "post_id": null,

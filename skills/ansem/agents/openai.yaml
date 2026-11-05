@@ -1,7 +1,7 @@
 "interface":
-  "display_name": "Ansem"
-  "short_description": "还原 Ansem 交易逻辑，建立可手动回测、复盘与人工执行的系统"
-  "default_prompt": "使用 $ansem，按手动系统规则回放图表，记录选标的、入场、止损、退出与净R，区分本人方法和测试参数。"
+  "display_name": "Ansem 研究"
+  "short_description": "核查 Ansem 原帖与配图，对齐历史 K 线，维护案例台账并做统计验证"
+  "default_prompt": "使用 $ansem，核查 Ansem 的原帖和配图，对齐发帖时已收盘的 K 线，还原当时的决策链并写入案例台账；交易计划改用 $ansem-ta-system。"
   "icon_small": "assets/icon.svg"
   "icon_large": "assets/icon.svg"
 "policy":
