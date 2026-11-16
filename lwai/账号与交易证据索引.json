@@ -1,0 +1,675 @@
+{
+  "audit_date": "2026-11-15",
+  "verified_public_x_link": {
+    "tradingview": "https://cn.tradingview.com/u/eggwong/",
+    "x": "https://x.com/egg_wong",
+    "posts": [
+      "https://x.com/egg_wong/status/2012420927808766030",
+      "https://x.com/egg_wong/status/2024840730301419566",
+      "https://x.com/egg_wong/status/2066504313678217627",
+      "https://x.com/egg_wong/status/2098676355047243864"
+    ]
+  },
+  "polymarket_candidate": {
+    "public_profile": "https://polymarket.com/@eggwong",
+    "public_x_post": "https://x.com/egg_wong/status/2024840730301419566",
+    "username": "eggwong",
+    "public_alias": "Muddy-Almighty",
+    "created_at_utc": "2026-02-20T02:54:15.463157Z",
+    "proxy_wallet": "0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619",
+    "attribution": "较强候选。用户名一致，且资料注册日与作者在 X 提到 Polymarket 的日期相同。公开资料没有绑定 X，也未见本人公开认领这个地址。",
+    "verified_badge": false,
+    "queried_on": "2026-11-15",
+    "official_public_data_v2": {
+      "trades": {
+        "url": "https://data-api.polymarket.com/v2/trades?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619&limit=200",
+        "http": 200,
+        "data": {
+          "data": [],
+          "pagination": {
+            "limit": 200,
+            "offset": 0,
+            "has_more": false,
+            "next_cursor": null
+          }
+        }
+      },
+      "activity": {
+        "url": "https://data-api.polymarket.com/v2/activity?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619&limit=200",
+        "http": 200,
+        "data": {
+          "data": [],
+          "pagination": {
+            "limit": 200,
+            "offset": 0,
+            "has_more": false,
+            "next_cursor": null
+          }
+        }
+      },
+      "positions-open": {
+        "url": "https://data-api.polymarket.com/v2/positions?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619&limit=100",
+        "http": 200,
+        "data": {
+          "data": [],
+          "pagination": {
+            "limit": 100,
+            "offset": 0,
+            "has_more": false,
+            "next_cursor": null
+          }
+        }
+      },
+      "positions-closed": {
+        "url": "https://data-api.polymarket.com/v2/positions?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619&status=CLOSED&limit=50",
+        "http": 200,
+        "data": {
+          "data": [],
+          "pagination": {
+            "limit": 50,
+            "offset": 0,
+            "has_more": false,
+            "next_cursor": null
+          }
+        }
+      },
+      "portfolio-value": {
+        "url": "https://data-api.polymarket.com/v2/value?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619",
+        "http": 200,
+        "data": {
+          "data": {
+            "proxy_wallet": "0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619",
+            "value": 0.0
+          }
+        }
+      },
+      "pnl-all": {
+        "url": "https://data-api.polymarket.com/v2/user-pnl?user=0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619&interval=all&fidelity=1d",
+        "http": 200,
+        "data": {
+          "data": {
+            "proxy_wallet": "0xaaf4e69e2e2fef25ef0b8b4caf5c3c6a41425619",
+            "interval": "all",
+            "fidelity": "1d",
+            "source_fidelity": "1d",
+            "points": []
+          }
+        }
+      }
+    }
+  },
+  "bitstamp_market_price_tests": [
+    {
+      "price_self_reported": 9269,
+      "post_minute_utc": "2020-01-29T11:44:00+00:00",
+      "post": "https://cn.tradingview.com/chart/BTCUSD/fPN8TOnB/",
+      "quote_source": [
+        "https://www.bitstamp.net/api/v2/ohlc/btcusd/?step=60&limit=721&start=1580256000&end=1580299199",
+        "https://www.bitstamp.net/api/v2/ohlc/btcusd/?step=60&limit=721&start=1580299200&end=1580342399"
+      ],
+      "reference_market": "Bitstamp BTC/USD",
+      "prior_matching_ohlc_minutes": 17,
+      "published_minute_range": {
+        "low": "9250.60",
+        "high": "9265.00"
+      }
+    },
+    {
+      "price_self_reported": 9288,
+      "post_minute_utc": "2020-01-29T12:06:00+00:00",
+      "post": "https://cn.tradingview.com/chart/BTCUSD/5J5k229H/",
+      "quote_source": [
+        "https://www.bitstamp.net/api/v2/ohlc/btcusd/?step=60&limit=721&start=1580256000&end=1580299199",
+        "https://www.bitstamp.net/api/v2/ohlc/btcusd/?step=60&limit=721&start=1580299200&end=1580342399"
+      ],
+      "reference_market": "Bitstamp BTC/USD",
+      "prior_matching_ohlc_minutes": 35,
+      "published_minute_range": {
+        "low": "9275.12",
+        "high": "9284.73"
+      }
+    }
+  ],
+  "stocks_markers": [
+    {
+      "symbol": "600889",
+      "name": "南京化纤",
+      "image": "图像/x/quant-1.jpg",
+      "source": "https://x.com/egg_wong/status/2012420927808766030",
+      "start": "2024-09-05",
+      "end": "2025-02-06",
+      "left": 12,
+      "right": 923,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600889&klt=101&fqt=1&beg=20240905&end=20250208&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 87,
+      "pixels_per_bar": 10.593,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2024-10-17",
+          "marker": "B",
+          "color": "灰",
+          "x_px": 257
+        },
+        {
+          "approx_session_china": "2024-12-04",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 511
+        },
+        {
+          "approx_session_china": "2024-12-05",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 522
+        },
+        {
+          "approx_session_china": "2024-12-06",
+          "marker": "S",
+          "color": "灰",
+          "x_px": 532
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 193,
+          "market_date": "2024-10-09"
+        },
+        {
+          "x_px": 426,
+          "market_date": "2024-11-22"
+        },
+        {
+          "x_px": 659,
+          "market_date": "2024-12-24"
+        }
+      ]
+    },
+    {
+      "symbol": "605178",
+      "name": "时空科技",
+      "image": "图像/x/quant-2.jpg",
+      "source": "https://x.com/egg_wong/status/2012420927808766030",
+      "start": "2025-09-17",
+      "end": "2025-12-01",
+      "left": 22,
+      "right": 918,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.605178&klt=101&fqt=1&beg=20250917&end=20251201&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 38,
+      "pixels_per_bar": 24.216,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2025-09-22",
+          "marker": "B",
+          "color": "红",
+          "x_px": 94
+        },
+        {
+          "approx_session_china": "2025-10-31",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 409
+        },
+        {
+          "approx_session_china": "2025-11-05",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 482
+        },
+        {
+          "approx_session_china": "2025-11-06",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 505
+        },
+        {
+          "approx_session_china": "2025-11-07",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 529
+        },
+        {
+          "approx_session_china": "2025-11-12",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 601
+        },
+        {
+          "approx_session_china": "2025-11-14",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 651
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 700,
+          "market_date": "2025-11-18"
+        }
+      ]
+    },
+    {
+      "symbol": "001331",
+      "name": "胜通能源",
+      "image": "图像/x/quant-3.jpg",
+      "source": "https://x.com/egg_wong/status/2012420927808766030",
+      "start": "2025-09-17",
+      "end": "2026-01-16",
+      "left": 15,
+      "right": 924,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.001331&klt=101&fqt=1&beg=20250917&end=20260116&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 72,
+      "pixels_per_bar": 12.803,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2025-09-23",
+          "marker": "B",
+          "color": "红",
+          "x_px": 65
+        },
+        {
+          "approx_session_china": "2025-12-29",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 808
+        },
+        {
+          "approx_session_china": "2026-01-06",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 820
+        },
+        {
+          "approx_session_china": "2026-01-07",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 834
+        },
+        {
+          "approx_session_china": "2026-01-08",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 846
+        },
+        {
+          "approx_session_china": "2026-01-09",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 858
+        },
+        {
+          "approx_session_china": "2026-01-12",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 872
+        },
+        {
+          "approx_session_china": "2026-01-13",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 885
+        }
+      ],
+      "date_verification_anchors": []
+    },
+    {
+      "symbol": "300844",
+      "name": "山水比德",
+      "image": "图像/eastmoney/1547265367-1.jpg",
+      "source": "https://guba.eastmoney.com/news,300844,1547265367.html",
+      "start": "2024-10-08",
+      "end": "2025-05-08",
+      "left": 10,
+      "right": 753,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.300844&klt=101&fqt=1&beg=20240901&end=20250508&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 142,
+      "pixels_per_bar": 5.27,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2024-11-14",
+          "marker": "B",
+          "color": "红",
+          "x_px": 152
+        }
+      ],
+      "date_verification_anchors": []
+    },
+    {
+      "symbol": "002165",
+      "name": "红宝丽",
+      "image": "图像/eastmoney/1547082990-1.jpg",
+      "source": "https://caifuhao.eastmoney.com/news/20250507152210731443650",
+      "start": "2025-01-24",
+      "end": "2025-05-07",
+      "left": 12,
+      "right": 751,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=0.002165&klt=101&fqt=1&beg=20250101&end=20250507&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 64,
+      "pixels_per_bar": 11.73,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2025-03-26",
+          "marker": "B",
+          "color": "灰",
+          "x_px": 446
+        },
+        {
+          "approx_session_china": "2025-04-02",
+          "marker": "B",
+          "color": "红",
+          "x_px": 505
+        },
+        {
+          "approx_session_china": "2025-04-07",
+          "marker": "T",
+          "color": "橙",
+          "x_px": 528
+        },
+        {
+          "approx_session_china": "2025-04-09",
+          "marker": "B",
+          "color": "红",
+          "x_px": 551
+        },
+        {
+          "approx_session_china": "2025-04-10",
+          "marker": "B",
+          "color": "红",
+          "x_px": 563
+        },
+        {
+          "approx_session_china": "2025-04-11",
+          "marker": "B",
+          "color": "红",
+          "x_px": 575
+        },
+        {
+          "approx_session_china": "2025-04-21",
+          "marker": "B",
+          "color": "红",
+          "x_px": 645
+        },
+        {
+          "approx_session_china": "2025-04-23",
+          "marker": "B",
+          "color": "红",
+          "x_px": 669
+        },
+        {
+          "approx_session_china": "2025-04-24",
+          "marker": "B",
+          "color": "红",
+          "x_px": 681
+        },
+        {
+          "approx_session_china": "2025-04-25",
+          "marker": "B",
+          "color": "红",
+          "x_px": 692
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 188,
+          "market_date": "2025-02-24"
+        },
+        {
+          "x_px": 375,
+          "market_date": "2025-03-18"
+        },
+        {
+          "x_px": 563,
+          "market_date": "2025-04-10"
+        }
+      ]
+    },
+    {
+      "symbol": "600186",
+      "name": "莲花控股 6 月 18 日图",
+      "image": "图像/eastmoney/1729312719-1.jpg",
+      "source": "https://guba.eastmoney.com/news,600186,1729312719.html",
+      "start": "2026-03-06",
+      "end": "2026-06-18",
+      "left": 44,
+      "right": 690,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600186&klt=101&fqt=1&beg=20260301&end=20260624&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 71,
+      "pixels_per_bar": 9.229,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2026-03-09",
+          "marker": "B",
+          "color": "灰",
+          "x_px": 53
+        },
+        {
+          "approx_session_china": "2026-03-10",
+          "marker": "B",
+          "color": "红",
+          "x_px": 62
+        },
+        {
+          "approx_session_china": "2026-03-12",
+          "marker": "B",
+          "color": "红",
+          "x_px": 82
+        },
+        {
+          "approx_session_china": "2026-03-16",
+          "marker": "B",
+          "color": "红",
+          "x_px": 99
+        },
+        {
+          "approx_session_china": "2026-03-20",
+          "marker": "B",
+          "color": "红",
+          "x_px": 137
+        },
+        {
+          "approx_session_china": "2026-03-23",
+          "marker": "B",
+          "color": "红",
+          "x_px": 146
+        },
+        {
+          "approx_session_china": "2026-03-24",
+          "marker": "B",
+          "color": "红",
+          "x_px": 156
+        },
+        {
+          "approx_session_china": "2026-04-01",
+          "marker": "B",
+          "color": "红",
+          "x_px": 211
+        },
+        {
+          "approx_session_china": "2026-04-03",
+          "marker": "B",
+          "color": "红",
+          "x_px": 229
+        },
+        {
+          "approx_session_china": "2026-04-09",
+          "marker": "B",
+          "color": "红",
+          "x_px": 257
+        },
+        {
+          "approx_session_china": "2026-04-24",
+          "marker": "B",
+          "color": "红",
+          "x_px": 358
+        },
+        {
+          "approx_session_china": "2026-05-28",
+          "marker": "B",
+          "color": "红",
+          "x_px": 552
+        },
+        {
+          "approx_session_china": "2026-06-18",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 690
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 191,
+          "market_date": "2026-03-30"
+        },
+        {
+          "x_px": 358,
+          "market_date": "2026-04-24"
+        },
+        {
+          "x_px": 524,
+          "market_date": "2026-05-25"
+        }
+      ]
+    },
+    {
+      "symbol": "600186",
+      "name": "莲花控股 6 月 24 日图",
+      "image": "图像/eastmoney/1731834732-2.jpg",
+      "source": "https://guba.eastmoney.com/news,600186,1731834732.html",
+      "start": "2026-03-11",
+      "end": "2026-06-24",
+      "left": 44,
+      "right": 691,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600186&klt=101&fqt=1&beg=20260301&end=20260624&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 71,
+      "pixels_per_bar": 9.243,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2026-03-20",
+          "marker": "B",
+          "color": "灰",
+          "x_px": 109
+        },
+        {
+          "approx_session_china": "2026-04-13",
+          "marker": "B",
+          "color": "红",
+          "x_px": 247
+        },
+        {
+          "approx_session_china": "2026-04-16",
+          "marker": "B",
+          "color": "红",
+          "x_px": 275
+        },
+        {
+          "approx_session_china": "2026-04-17",
+          "marker": "B",
+          "color": "红",
+          "x_px": 284
+        },
+        {
+          "approx_session_china": "2026-06-18",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 663
+        },
+        {
+          "approx_session_china": "2026-06-24",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 691
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 192,
+          "market_date": "2026-04-02"
+        },
+        {
+          "x_px": 358,
+          "market_date": "2026-04-29"
+        },
+        {
+          "x_px": 524,
+          "market_date": "2026-05-28"
+        }
+      ]
+    },
+    {
+      "symbol": "600241",
+      "name": "时代万恒",
+      "image": "图像/tonghuashun/ths-shared.jpg",
+      "source": "https://c.10jqka.com.cn/m/post/discussDetail/?contentId=1f094o8lgor2ke043fe177",
+      "start": "2026-07-23",
+      "end": "2026-10-28",
+      "left": 19,
+      "right": 1153,
+      "public_kline_url": "https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.600241&klt=101&fqt=1&beg=20260723&end=20261028&lmt=210&fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61",
+      "visible_bars": 64,
+      "pixels_per_bar": 18.0,
+      "mapped_markers": [
+        {
+          "approx_session_china": "2026-08-24",
+          "marker": "B",
+          "color": "灰",
+          "x_px": 415
+        },
+        {
+          "approx_session_china": "2026-10-12",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 937
+        },
+        {
+          "approx_session_china": "2026-10-13",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 955
+        },
+        {
+          "approx_session_china": "2026-10-16",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 1009
+        },
+        {
+          "approx_session_china": "2026-10-19",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 1027
+        },
+        {
+          "approx_session_china": "2026-10-20",
+          "marker": "S",
+          "color": "蓝",
+          "x_px": 1045
+        },
+        {
+          "approx_session_china": "2026-10-22",
+          "marker": "S",
+          "color": "灰",
+          "x_px": 1081
+        }
+      ],
+      "date_verification_anchors": [
+        {
+          "x_px": 289,
+          "market_date": "2026-08-13"
+        },
+        {
+          "x_px": 577,
+          "market_date": "2026-09-04"
+        },
+        {
+          "x_px": 865,
+          "market_date": "2026-09-29"
+        }
+      ]
+    }
+  ],
+  "stock_marker_observations": 56,
+  "stock_marker_unique_symbol_date_label": 54,
+  "open_issues": [
+    "No CEX account or broker transaction ledger could be attributed to the creator.",
+    "TradingView action labels and daily-stock B/S marks do not carry order quantities or account identity."
+  ]
+}

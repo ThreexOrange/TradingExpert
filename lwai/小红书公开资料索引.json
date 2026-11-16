@@ -1,0 +1,345 @@
+{
+  "author": {
+    "nickname": "s老王",
+    "red_id": "lwaitech",
+    "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+    "github": "https://github.com/eggwong2/LWAI-trade"
+  },
+  "displayed_post_count": 68,
+  "profile_cards_obtained": 30,
+  "profile_has_more": true,
+  "shared_note": {
+    "title": "中登资产",
+    "author": "s老王",
+    "red_id": "lwaitech",
+    "published_china": "2026-10-28T19:54:30+08:00",
+    "url": "https://xhslink.cn/o/8oT1wh2jRLV",
+    "canonical_url": "https://www.xiaohongshu.com/discovery/item/6ae1e2760000000027021e0d",
+    "type": "图文",
+    "summary": "笔记谈个人算力，并用三张图片展示机架、GPU 主机和显卡包装。",
+    "images": [
+      "图像/xiaohongshu/xhs-1.webp",
+      "图像/xiaohongshu/xhs-2.webp",
+      "图像/xiaohongshu/xhs-3.webp"
+    ]
+  },
+  "cards": [
+    {
+      "profile_order": 1,
+      "title": "老黄之后再无入中b300",
+      "type": "图文",
+      "published_china": "2026-11-14T12:09:40+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-01.webp",
+      "cover_summary": "本地 GPU 硬件展示。"
+    },
+    {
+      "profile_order": 2,
+      "title": "三握草，好绿呀",
+      "type": "图文",
+      "published_china": "2026-11-13T17:13:35+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 3,
+      "title": "肥家",
+      "type": "视频",
+      "published_china": "2026-11-13T00:16:24+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 4,
+      "title": "你们是怎么看盘的",
+      "type": "图文",
+      "published_china": "2026-11-12T11:41:15+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-04.webp",
+      "cover_summary": "看盘环境，公开封面含桌面图表。"
+    },
+    {
+      "profile_order": 5,
+      "title": "你离财务自由有多远",
+      "type": "图文",
+      "published_china": "2026-11-11T19:42:23+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-05.webp",
+      "cover_summary": "不同本金和开销的情景表。"
+    },
+    {
+      "profile_order": 6,
+      "title": "老黄背后的算计",
+      "type": "图文",
+      "published_china": "2026-11-09T09:43:15+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-06.webp",
+      "cover_summary": "LWAI 标识的英伟达题材图。"
+    },
+    {
+      "profile_order": 7,
+      "title": "如何快速达成45岁退休",
+      "type": "图文",
+      "published_china": "2026-11-09T09:17:26+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-07.webp",
+      "cover_summary": "退休主题，封面无业绩数据。"
+    },
+    {
+      "profile_order": 8,
+      "title": "美股belike",
+      "type": "图文",
+      "published_china": "2026-11-08T10:40:44+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-08.webp",
+      "cover_summary": "美国科技股主题，封面为公司标识。"
+    },
+    {
+      "profile_order": 9,
+      "title": "周末了",
+      "type": "视频",
+      "published_china": "2026-11-07T15:41:08+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 10,
+      "title": "回报率超3倍的2界世界赛冠军策略给我破解了",
+      "type": "图文",
+      "published_china": "2026-11-07T15:17:48+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-10.webp",
+      "cover_summary": "封面提到一位德国交易选手单次或特定统计口径的 307% 比赛回报。无法从封面核对作者所说的复现过程。"
+    },
+    {
+      "profile_order": 11,
+      "title": "股市太绿，吃点红对冲",
+      "type": "图文",
+      "published_china": "2026-11-06T21:59:26+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 12,
+      "title": "周末狂喜",
+      "type": "图文",
+      "published_china": "2026-11-06T19:15:04+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-12.webp",
+      "cover_summary": "封面为带分价量图的行情画面。"
+    },
+    {
+      "profile_order": 13,
+      "title": "不用解释，打到骨折",
+      "type": "图文",
+      "published_china": "2026-11-06T12:58:03+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 14,
+      "title": "笑一笑",
+      "type": "视频",
+      "published_china": "2026-11-06T10:10:18+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 15,
+      "title": "寄",
+      "type": "图文",
+      "published_china": "2026-11-06T09:20:56+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-15.webp",
+      "cover_summary": "封面为同花顺 App 大盘行情页面。"
+    },
+    {
+      "profile_order": 16,
+      "title": "港风餐",
+      "type": "图文",
+      "published_china": "2026-11-05T12:33:22+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 17,
+      "title": "近期好像流行经典旧物",
+      "type": "图文",
+      "published_china": "2026-11-05T12:23:23+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 18,
+      "title": "农历924启动不用跌了",
+      "type": "视频",
+      "published_china": "2026-11-05T11:38:16+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-18.webp",
+      "cover_summary": "视频卡片。标题涉及市场走势，封面是场景照。"
+    },
+    {
+      "profile_order": 19,
+      "title": "冰山检测与吸收",
+      "type": "图文",
+      "published_china": "2026-11-04T23:15:23+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-19.webp",
+      "cover_summary": "LWAI 图解比较订单流吸收与冰山检测，并给出形态示例。"
+    },
+    {
+      "profile_order": 20,
+      "title": "主流炒股app的筹码峰骗了你十年",
+      "type": "图文",
+      "published_china": "2026-11-04T11:16:32+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-20.webp",
+      "cover_summary": "LWAI 筹码结构图示，包含衰减分布、保留率过滤、订单流与主导力量估计。"
+    },
+    {
+      "profile_order": 21,
+      "title": "当然是红色那个",
+      "type": "图文",
+      "published_china": "2026-11-03T21:54:23+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 22,
+      "title": "怎样减少价格冲击",
+      "type": "图文",
+      "published_china": "2026-11-03T18:52:04+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-22.webp",
+      "cover_summary": "LWAI 建仓算法推荐 v2.0。画面举例标的 600252，展示 SmartVWAP 的算法推荐。"
+    },
+    {
+      "profile_order": 23,
+      "title": "下班",
+      "type": "视频",
+      "published_china": "2026-11-03T16:28:51+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 24,
+      "title": "K线翻转的那一刻，我用数学量化了这件事",
+      "type": "图文",
+      "published_china": "2026-11-03T10:58:37+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-24.webp",
+      "cover_summary": "LWAI「弹簧起爆」图。标题讨论 K 线翻转，封面提到订单流量化。"
+    },
+    {
+      "profile_order": 25,
+      "title": "关于养老",
+      "type": "图文",
+      "published_china": "2026-11-03T08:37:53+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-25.webp",
+      "cover_summary": "封面展示银行股行情表现。"
+    },
+    {
+      "profile_order": 26,
+      "title": "你们觉得这些人丢脸吗",
+      "type": "图文",
+      "published_china": "2026-11-02T22:00:43+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 27,
+      "title": "最强冷钱包之术",
+      "type": "图文",
+      "published_china": "2026-11-02T20:40:09+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 28,
+      "title": "当代年轻人的黄赌毒",
+      "type": "图文",
+      "published_china": "2026-11-02T16:41:10+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": null
+    },
+    {
+      "profile_order": 29,
+      "title": "老登股民最爱的缠论",
+      "type": "图文",
+      "published_china": "2026-11-02T15:36:11+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-29.webp",
+      "cover_summary": "LWAI 分型波段（缠版）信息图，名称与 TradingView 开源指标一致。"
+    },
+    {
+      "profile_order": 30,
+      "title": "中登男爱好",
+      "type": "图文",
+      "published_china": "2026-11-02T10:14:44+08:00",
+      "author_red_id": "lwaitech",
+      "profile_url": "https://www.xiaohongshu.com/user/profile/65348e2c0000000006007ee9",
+      "direct_note_url": null,
+      "cover": "图像/xiaohongshu/card-30.webp",
+      "cover_summary": "算力硬件及机架展示。"
+    }
+  ]
+}
