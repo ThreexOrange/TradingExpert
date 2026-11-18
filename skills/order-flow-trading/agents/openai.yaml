@@ -1,0 +1,11 @@
+"interface":
+  "display_name": "订单流交易"
+  "short_description": "足迹图读盘：Delta、POC、失衡与堆积、被套交易者、大单微单、吸收，及逐笔成交构建足迹"
+  "default_prompt": "使用 $order-flow-trading，在关键价位附近读足迹图，判断主动方、被动方和被套方，给出入场、结构性止损与离场条件。"
+"policy":
+  "products":
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  "allow_implicit_invocation": true
