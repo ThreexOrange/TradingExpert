@@ -1,0 +1,11 @@
+"interface":
+  "display_name": "裸K线价格行为"
+  "short_description": "Pinbar 与吞没、关键水平位、假突破、2+5 信号评分、入场止损与金字塔加仓"
+  "default_prompt": "使用 $price-action-pinbar，先画关键位，再按 2+5 评分判断信号能否交易，给出入场、止损、目标和最坏情况盈亏比。"
+"policy":
+  "products":
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  "allow_implicit_invocation": true

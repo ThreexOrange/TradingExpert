@@ -1,6 +1,6 @@
 # TradingExpert
 
-独立交易员 Skills：Serenity（@aleabitoreddit）与 Ansem（@blknoiz06），分别保留来源、方法归属和独立执行规则。
+独立交易员 Skills：Serenity（@aleabitoreddit）与 Ansem（@blknoiz06），分别保留来源、方法归属和独立执行规则；另有三本交易书的方法 Skills（价格行为、订单流、威科夫 2.0），为 3xOrange Advanced System 提供结构、价位和触发层。
 
 ## Skills
 
@@ -8,6 +8,9 @@
 | --- | --- | --- |
 | Serenity | 供应链瓶颈、催化、每股经济与交易执行 | [serenity-trading-desk](skills/serenity-trading-desk/SKILL.md) |
 | Ansem | 喊单/配图与历史 K 线对齐、区间突破、假跌破、相对强弱与轮动 | [Ansem](skills/ansem/SKILL.md) |
+| 裸 K 线价格行为 | Pinbar 与吞没、关键水平位、假突破、2+5 信号评分、入场止损、金字塔加仓 | [price-action-pinbar](skills/price-action-pinbar/SKILL.md) |
+| 订单流交易 | 足迹图、Delta、POC、失衡与堆积、被套交易者、大单微单、吸收；逐笔成交构建足迹 | [order-flow-trading](skills/order-flow-trading/SKILL.md) |
+| 威科夫 2.0 | 结构定背景、成交量分布定价位（VA/POC/VWAP/HVN/LVN）、订单流定触发 | [wyckoff-2-0](skills/wyckoff-2-0/SKILL.md) |
 
 ### Serenity
 
@@ -55,3 +58,31 @@
 > 使用 $ansem，将给定原帖及原图对齐历史 K 线，先还原当时能知道的信息，再量化突破、假跌破及相对强弱，给出候选规则与反例。
 
 初版来源有限，部分原帖/配图未读取，未取得连续同源 OHLCV；尚未完成历史回测或证明预测优势。数学模型与风控为独立扩展，不代表本人固定参数。两个 Skills 的方法不能混为一人观点，GitHub 副本与 ChatGPT 后续更新需分别同步。
+
+## 三本书的方法 Skills（2026-11-18）
+
+来源：许佳聪《裸K线交易法——价格行为（Price Action）全面详解》；Michael Valtos《订单流交易》（中译本）；鲁本·维拉赫莫萨《威科夫2.0：市场结构、成交量分布与订单流》（中译本）。Skill 是读书笔记与方法提炼，用自己的话重写，**不含原书正文、图表或书籍文件**；书中阈值和作者自述的胜率都标明出处，没有当作已验证的结果。
+
+三者在 3xOrange Advanced System 里的分工：
+
+| 层 | 来源 | 提供什么 |
+| --- | --- | --- |
+| 背景 | 威科夫 2.0 | 区间还是趋势、累积还是派发、哪一方控制 |
+| 价位 | 威科夫 2.0（成交量分布）、价格行为（关键水平位） | 在哪里交易：价值区边界、POC、VWAP、HVN / LVN、拐点水平位 |
+| 触发 | 订单流、价格行为 | 什么时候进：吸收 + 主动、控制 + 测试、被套交易者、大单微单；Pinbar / 吞没 + 2+5 评分 |
+| 执行 | 三本书 | 止损单入场、结构性止损、目标（下一关键位、HVN、未回补 POC）、分批与金字塔 |
+
+每个 Skill 都有可运行的脚本（只用标准库）：
+
+```bash
+python skills/order-flow-trading/scripts/footprint.py --selftest
+python skills/price-action-pinbar/scripts/pa_signals.py --selftest
+python skills/wyckoff-2-0/scripts/volume_profile.py --selftest
+```
+
+- `footprint.py`：从逐笔成交（例如币安 aggTrades）构建足迹 K 线，计算 Delta、POC 位置、斜对角失衡、堆积失衡区、大单 / 微单、被套交易者、吸收、订单流背离。
+- `pa_signals.py`：从 OHLC 逐根计算 Pinbar / 吞没 / 双星、关键位（只用已确认拐点）、2+5 评分、入场止损目标和盈亏比。
+- `volume_profile.py`：按会话或固定区间计算成交量分布、价值区域、HVN / LVN、P / b 形状、VWAP 与标准差带、未回补 POC。
+
+每个 Skill 的 `references/quant-mapping.md` 列出了可计算定义、已经在 3xOrangeTradingTheory 检验过的结论（单独的假突破、K 线级主动买卖都没通过），以及还没检验、可以事先写定规则再测的项目。
+

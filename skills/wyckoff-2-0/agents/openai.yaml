@@ -1,0 +1,11 @@
+"interface":
+  "display_name": "威科夫 2.0"
+  "short_description": "威科夫结构定背景、成交量分布定价位、订单流定触发的交易计划"
+  "default_prompt": "使用 $wyckoff-2-0，判断区间还是趋势背景，列出价值区、POC、VWAP、HVN/LVN 和结构价位，写出两个方向的如果-那么计划和触发条件。"
+"policy":
+  "products":
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
+  "allow_implicit_invocation": true
